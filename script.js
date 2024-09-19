@@ -8,8 +8,8 @@ let inputboxEl= document.getElementById("inputbox");
  }
      
  function deleteChar(){
-    let currentVal = document.getElementById("inputbox").value;
-    inputboxEl.value = currentValue.slice(0, -1);
+    let newVal = document.getElementById("inputbox").value;
+    inputboxEl.value = newVal.slice(0, -1);
  }
  function appendCharacter(character){
     inputboxEl.value += character;
